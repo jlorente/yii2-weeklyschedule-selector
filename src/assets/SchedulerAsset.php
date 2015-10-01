@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
  * @see http://www.jqueryscript.net/time-clock/Create-A-Basic-Weekly-Schedule-with-Hour-Selector-Using-jQuery.html
  * @author José Lorente <jose.lorente.martin@gmail.com>
  */
-class WeeklyScheduleAsset extends AssetBundle {
+class SchedulerAsset extends AssetBundle {
 
     /**
      * @inheritdoc
@@ -29,7 +29,14 @@ class WeeklyScheduleAsset extends AssetBundle {
      * @inheritdoc
      */
     public $js = [
-        'js/weeklyschedule-selector.js'
+        'js/scheduler.js'
+    ];
+
+    /**
+     * @inheritdoc
+     */
+    public $css = [
+        'css/scheduler.css'
     ];
 
 }

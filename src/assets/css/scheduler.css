@@ -1,0 +1,49 @@
+/**
+ * @author      José Lorente <jose.lorente.martin@gmail.com>
+ * @license     The MIT License (MIT)
+ * @copyright   José Lorente
+ * @version     1.0
+ *//* 
+    Created on : 01-oct-2015, 16:14:54
+    Author     : Pepe
+*/
+
+.schedule-table {
+    width: 100%;
+} 
+
+.schedule-table .schedule-header .schedule-header-label {
+    width: 45px;
+}
+
+.schedule-table .schedule-header .schedule-header-cell {
+    min-width: 35px;
+}
+
+.schedule-rows td {
+    height: 30px;
+    margin: 3px;
+    padding: 5px;
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+.schedule-rows td:first-child {
+    background-color: transparent;
+    text-align: right;
+    position: relative;
+    top: -12px;
+}
+
+.schedule-rows td.time-slot {
+    border: 1px solid #fff;
+}
+
+.schedule-rows td[data-selected],
+.schedule-rows td[data-selecting] {
+    background-color: #61bd6d;
+}
+
+.schedule-rows td[data-disabled] {
+    opacity: 0.55;
+}
