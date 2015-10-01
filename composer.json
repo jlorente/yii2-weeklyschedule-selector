@@ -1,0 +1,19 @@
+{
+    "name": "jlorente/yii2-weeklyschedule-selector",
+    "description": "A Yii2 plugin that provides the framework with a weekly schedule selector to attach to models that need a weekly schedule organization.",
+    "keywords": ["yii2", "week", "schedule", "weekly", "selector", "day", "hour"],
+    "homepage": "https://github.com/jlorente/yii2-weeklyschedule-selector",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Lorente Martin",
+            "email": "jose.lorente.martin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "jlorente\\weeklyschedule\\": "src/"
+        }
+    }
+}
